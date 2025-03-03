@@ -1,0 +1,12 @@
+with open(report_path, 'w') as f:
+    f.write("# Frailty Analysis Report\n\n")
+    f.write("This report summarizes the analysis of frailty and grip strength in female participants.\n\n")
+    
+    f.write("## Descriptive Statistics\n\n")
+    f.write("Below are the summary statistics for the dataset:\n\n")
+    f.write(summary_stats.to_string())
+
+    
+    f.write("## Correlation Analysis\n\n")
+    f.write("The correlation matrix is provided below:\n\n")
+    f.write(df.corr().to_string())
