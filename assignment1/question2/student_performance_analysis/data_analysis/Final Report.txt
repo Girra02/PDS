@@ -1,3 +1,4 @@
+Each visualization makes it easier:
 Histogram of Math score
 - helps in comprehending how arithmetic scores are distributed.
 - detects patterns such clustering, skewness, and normal distribution.
