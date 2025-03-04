@@ -1,0 +1,15 @@
+Histogram of Math score
+- helps in comprehending how arithmetic scores are distributed.
+- detects patterns such clustering, skewness, and normal distribution.
+Math Scores by Gender in a Boxplot
+- compares the distribution of scores for students who are male and female.
+- draws attention to outliers, median scores, and the interquartile range.
+Average Scores by Test Preparation Course in a Bar Chart
+- demonstrates how test-prep classes affect student's performance.
+- compares variations in writing, reading, and math performance.
+Math vs. Reading Scores Scatter Plot
+- demonstrates the relationships between reading and math scores.
+- helps in determining whether excellent achievement in one subject correlates with another.
+Parental Education Level Count Plot
+- displays the student distribution according to parental education.
+- helps in the analysis of any connections between student achievement and parental education.
