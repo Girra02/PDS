@@ -1,2 +1,3 @@
-descriptive_stats = df.describe()
-descriptive_stats.to_csv('../frailty_data/data_analysis/descriptive_statistics.csv', index=False)
+Average characteristics: The average height, weight, and age of the participants are 68.6 inches, 131.9 pounds, and 32.5 years, respectively. Frailty is evident in 44% of cases, and the average grip strength is 26 kg.
+Variability: While height and grip strength are more constant, weight and age exhibit significant variability (std dev ~14.23 and 12.86).
+Range & Distribution: Frailty scores are typically at 0 (non-frail), while grip strength ranges from 19 to 31 kg. The youngest participant is 17 years old, and the oldest is 51 years old.
