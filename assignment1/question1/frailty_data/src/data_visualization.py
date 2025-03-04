@@ -7,6 +7,7 @@ plt.ylabel("Count")
 plt.savefig("/content/histogram_grip_strength.png")
 plt.show()
 
+# 2. Heatmap correlation
 plt.figure(figsize=(6,4))
 sns.heatmap(df.corr(), annot=True, cmap="coolwarm", linewidths=0.5)
 plt.title("Feature Correlation Heatmap")
