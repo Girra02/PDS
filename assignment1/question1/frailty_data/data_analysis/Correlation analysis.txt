@@ -1,4 +1,2 @@
-# Convert categorical 'Frailty' to binary (0 = No, 1 = Yes)
-df["Frailty"] = df["Frailty"].map({"N": 0, "Y": 1})
-correlation_matrix = df.corr()
-print("Correlation matrix:\n", correlation_matrix)
+0.57, or a moderately positive correlation, between height and weight. It makes sense that taller people would weigh more.
+Moderate Negative Correlation (-0.43) between Grip Strength and Frailty. People that have stronger grips are typically less fragile. This implies that one important measure of frailty may be grip strength.
