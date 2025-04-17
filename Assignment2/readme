@@ -1,4 +1,15 @@
-How I Handled Missing Values
+Justification - How I Handled Missing Values 
 While exploring the dataset, I noticed a few columns had missing values, and I took different approaches to deal with them based on the nature of each column.
+
+1. Filling Mileage, Engine, and Power with the Median
+These columns contain numerical data, and I chose to fill their missing values using the median instead of the mean. That’s because values like mileage and engine size can have outliers — for example, a car that’s rarely driven or one with an extremely powerful engine. The median gives a better central value without being affected by these extremes, helping keep the data realistic.
+
+2. Filling Seats with the Most Common Value
+For the Seats column, I used the mode (the most frequent value) to fill missing entries. This made more sense than using the mean or median because cars can only have a fixed number of seats like 5 or 7 — not 5.4 or 6.2. Using the most common seat count ensured that the missing data was filled with something practical and accurate.
+
+3. Dropping the New_Price Column
+The New_Price column had too many missing values — over 85% of the entries were blank. Instead of trying to fill in such a large amount of missing data (which could lead to inaccurate or biased results), I decided it was better to remove the column altogether. It wasn’t essential for the main analysis, so dropping it helped keep the dataset clean and simple.
+
+
 
 
